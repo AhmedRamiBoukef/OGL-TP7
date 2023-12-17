@@ -1,4 +1,4 @@
-package com.example.model;
+package main.java.com.example.model;
 
 public class Matrix {
 
@@ -96,14 +96,14 @@ public class Matrix {
 		}
 
 
-	return  true;
+		return  true;
 
 	}
-	
-	
-  @Override
-  public int hashCode() {
-    return super.hashCode();
-  }
+
+
+	@Override
+	public int hashCode() {
+		return super.hashCode();
+	}
 
 }

@@ -11,29 +11,46 @@
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 4000800,
+=======
+              "duration": 15959600,
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
               "status": "passed"
             },
             "line": 3,
             "name": "I have A Matrix",
             "match": {
+<<<<<<< HEAD
               "location": "MatrixSteps.iHaveAMatrix()"
+=======
+              "location": "test.java.MatrixSteps.iHaveAMatrix()"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
             },
             "keyword": "Given "
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2023-12-17T08:58:48.248Z",
         "line": 5,
         "name": "Determinant",
         "description": "",
         "id": "matrix;determinant",
+=======
+        "start_timestamp": "2023-12-17T09:01:25.188Z",
+        "line": 5,
+        "name": "Cofactor",
+        "description": "",
+        "id": "matrix;cofactor",
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 3002100,
               "status": "passed"
             },
@@ -41,18 +58,31 @@
             "name": "I compute determinant of",
             "match": {
               "location": "MatrixSteps.iComputeDeterminantOf(io.cucumber.datatable.DataTable)"
+=======
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I compute cofactor of",
+            "match": {
+              "location": "test.java.MatrixSteps.iComputeCofactorOf(io.cucumber.datatable.DataTable)"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
             },
             "rows": [
               {
                 "cells": [
                   "col1",
+<<<<<<< HEAD
                   "col2",
                   "col3"
+=======
+                  "col2"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
                 ]
               },
               {
                 "cells": [
                   "1",
+<<<<<<< HEAD
                   "2",
                   "3"
                 ]
@@ -62,13 +92,21 @@
                   "4",
                   "5",
                   "6"
+=======
+                  "2"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
                 ]
               },
               {
                 "cells": [
+<<<<<<< HEAD
                   "7",
                   "8",
                   "12"
+=======
+                  "3",
+                  "4"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
                 ]
               }
             ],
@@ -76,6 +114,7 @@
           },
           {
             "result": {
+<<<<<<< HEAD
               "duration": 2000200,
               "status": "passed"
             },
@@ -90,6 +129,35 @@
               ],
               "location": "MatrixSteps.iFindAsDeterminantResult(double)"
             },
+=======
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "The result of cofactor is",
+            "match": {
+              "location": "test.java.MatrixSteps.iFindAsCofactoreResult(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "col1",
+                  "col2"
+                ]
+              },
+              {
+                "cells": [
+                  "4",
+                  "-3"
+                ]
+              },
+              {
+                "cells": [
+                  "-2",
+                  "1"
+                ]
+              }
+            ],
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
             "keyword": "Then "
           }
         ]
@@ -108,23 +176,36 @@
             "line": 3,
             "name": "I have A Matrix",
             "match": {
+<<<<<<< HEAD
               "location": "MatrixSteps.iHaveAMatrix()"
+=======
+              "location": "test.java.MatrixSteps.iHaveAMatrix()"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
             },
             "keyword": "Given "
           }
         ]
       },
       {
+<<<<<<< HEAD
         "start_timestamp": "2023-12-17T08:58:48.365Z",
         "line": 14,
         "name": "Transpose",
         "description": "",
         "id": "matrix;transpose",
+=======
+        "start_timestamp": "2023-12-17T09:01:25.266Z",
+        "line": 17,
+        "name": "Inverse",
+        "description": "",
+        "id": "matrix;inverse",
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 993600,
               "status": "passed"
             },
@@ -132,6 +213,14 @@
             "name": "I compute transpose of",
             "match": {
               "location": "MatrixSteps.iComputeTransposeOf(io.cucumber.datatable.DataTable)"
+=======
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I compute inverse of",
+            "match": {
+              "location": "test.java.MatrixSteps.iComputeInverseOf(io.cucumber.datatable.DataTable)"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
             },
             "rows": [
               {
@@ -151,12 +240,15 @@
                   "3",
                   "4"
                 ]
+<<<<<<< HEAD
               },
               {
                 "cells": [
                   "5",
                   "6"
                 ]
+=======
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
               }
             ],
             "keyword": "When "
@@ -165,31 +257,52 @@
             "result": {
               "status": "passed"
             },
+<<<<<<< HEAD
             "line": 20,
             "name": "The result of transpose is",
             "match": {
               "location": "MatrixSteps.iFindAsTransposeResult(io.cucumber.datatable.DataTable)"
+=======
+            "line": 22,
+            "name": "The result of inverse is",
+            "match": {
+              "location": "test.java.MatrixSteps.iFindAsInverseResult(io.cucumber.datatable.DataTable)"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
             },
             "rows": [
               {
                 "cells": [
                   "col1",
+<<<<<<< HEAD
                   "col2",
                   "col3"
+=======
+                  "col2"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
                 ]
               },
               {
                 "cells": [
+<<<<<<< HEAD
                   "1",
                   "3",
                   "5"
+=======
+                  "-2",
+                  "1"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
                 ]
               },
               {
                 "cells": [
+<<<<<<< HEAD
                   "2",
                   "4",
                   "6"
+=======
+                  "1.5",
+                  "-0.5"
+>>>>>>> 7278e84a67c247f320fb211373b1f3eafd7a01e0
                 ]
               }
             ],

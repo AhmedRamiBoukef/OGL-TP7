@@ -1,11 +1,11 @@
-package com.example.exception;
+package main.java.com.example.exception;
 
 public class NoSquareException extends Exception {
 
 	public NoSquareException() {
 		super();
 		// TODO Auto-generated constructor stub
-	
+
 	}
 
 	public NoSquareException(String message) {
